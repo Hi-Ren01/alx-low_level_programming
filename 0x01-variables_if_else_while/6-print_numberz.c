@@ -4,7 +4,7 @@
 /**
  * main-Entry
  *
- * Description: This code will print tebahpla
+ * Description: prints all single digit numbers of base 10
  *
  * Return: 0
  */
@@ -13,7 +13,7 @@ int main(void)
 {
 	int d;
 
-	for (d = 'z'; d >= 'a'; d--)
+	for (d = 48; d <= 57; d++)
 
 	{
 		putchar(d);
