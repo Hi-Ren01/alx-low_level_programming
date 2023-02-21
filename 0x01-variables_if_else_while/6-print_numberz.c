@@ -2,23 +2,23 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main-Entry point
+ * main-Entry
  *
- * Description: The code will print more numbers
+ * Description: This code will print tebahpla
  *
  * Return: 0
  */
 int main(void)
 
 {
-	int b;
+	int d;
 
-	for (b = '0'; b <= '9'; b++)
+	for (d = 'z'; d >= 'a'; d--)
 
 	{
-		putchar("%d", b);
+		putchar(d);
 	}
-		putchar('\n');
+	putchar('\n');
 
-		return (0);
+	return (0);
 }
