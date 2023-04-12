@@ -1,10 +1,11 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * _power - calculate (base and power)
  * @base: base of the exponet
  * @pow: power of the exponet
- * Return value
+ * Return: value
  */
 unsigned long int _power(unsigned int base, unsigned int pow)
 {
